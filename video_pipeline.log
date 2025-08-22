@@ -1,0 +1,541 @@
+2025-08-03 14:53:35,601 - __main__ - INFO - Pipeline initialized with config: E:\Movies\Farzi S01 Hindi 720p WEB-DL ESub [BollyFlix]\jhc.mkv
+2025-08-03 14:53:35,605 - __main__ - INFO - Created temporary directory: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_ifohtln6
+2025-08-03 14:53:35,606 - __main__ - INFO - Starting complete video processing pipeline...
+2025-08-03 14:53:35,606 - __main__ - INFO - Validating pipeline inputs...
+2025-08-03 14:53:35,610 - __main__ - INFO - Input validation completed successfully
+2025-08-03 14:53:35,611 - __main__ - INFO - Starting segment extraction...
+2025-08-03 14:53:35,611 - __main__ - INFO - Extracting segment 1/10: 00:02:24 to 00:03:00
+2025-08-03 14:53:37,092 - core.video_processor - INFO - Extracted segment: 00:02:24 to 00:03:00
+2025-08-03 14:53:37,093 - __main__ - INFO - Extracting segment 2/10: 00:03:16 to 00:03:53
+2025-08-03 14:53:37,329 - core.video_processor - INFO - Extracted segment: 00:03:16 to 00:03:53
+2025-08-03 14:53:37,330 - __main__ - INFO - Extracting segment 3/10: 00:04:00 to 00:04:40
+2025-08-03 14:53:37,587 - core.video_processor - INFO - Extracted segment: 00:04:00 to 00:04:40
+2025-08-03 14:53:37,588 - __main__ - INFO - Extracting segment 4/10: 00:05:00 to 00:05:30
+2025-08-03 14:53:37,882 - core.video_processor - INFO - Extracted segment: 00:05:00 to 00:05:30
+2025-08-03 14:53:37,883 - __main__ - INFO - Extracting segment 5/10: 00:06:00 to 00:06:45
+2025-08-03 14:53:38,208 - core.video_processor - INFO - Extracted segment: 00:06:00 to 00:06:45
+2025-08-03 14:53:38,209 - __main__ - INFO - Extracting segment 6/10: 00:07:10 to 00:07:50
+2025-08-03 14:53:38,554 - core.video_processor - INFO - Extracted segment: 00:07:10 to 00:07:50
+2025-08-03 14:53:38,555 - __main__ - INFO - Extracting segment 7/10: 00:08:05 to 00:08:40
+2025-08-03 14:53:38,912 - core.video_processor - INFO - Extracted segment: 00:08:05 to 00:08:40
+2025-08-03 14:53:38,912 - __main__ - INFO - Extracting segment 8/10: 00:09:00 to 00:09:40
+2025-08-03 14:53:39,323 - core.video_processor - INFO - Extracted segment: 00:09:00 to 00:09:40
+2025-08-03 14:53:39,324 - __main__ - INFO - Extracting segment 9/10: 00:10:00 to 00:10:30
+2025-08-03 14:53:39,719 - core.video_processor - INFO - Extracted segment: 00:10:00 to 00:10:30
+2025-08-03 14:53:39,720 - __main__ - INFO - Extracting segment 10/10: 00:11:00 to 00:11:40
+2025-08-03 14:53:40,147 - core.video_processor - INFO - Extracted segment: 00:11:00 to 00:11:40
+2025-08-03 14:53:41,019 - core.video_processor - INFO - Concatenated 10 segments
+2025-08-03 14:53:41,020 - __main__ - INFO - Successfully extracted and concatenated 10 segments
+2025-08-03 14:53:41,020 - __main__ - INFO - Applying color grading and enhancement...
+2025-08-03 14:57:28,132 - core.video_processor - INFO - Color grading applied successfully
+2025-08-03 14:57:28,133 - __main__ - INFO - Color grading completed successfully
+2025-08-03 14:57:28,133 - __main__ - INFO - Transforming to portrait format with background blur...
+2025-08-03 14:57:28,690 - core.video_processor - ERROR - Portrait transformation failed: Command '['ffmpeg', '-y', '-i', 'C:\\Users\\KINGST~1\\AppData\\Local\\Temp\\video_pipeline_ifohtln6\\color_graded.mkv', '-filter_complex', '[0:v]scale=1080:-1,crop=1080:1920[main];[0:v]scale=1404:2496,boxblur=10:1[bg];[bg][main]overlay=(W-w)/2:(H-h)/2,format=yuv420p[vout]', '-map', '[vout]', '-map', '0:a?', '-c:v', 'libx264', '-crf', '18', '-preset', 'veryfast', '-c:a', 'aac', 'C:\\Users\\KINGST~1\\AppData\\Local\\Temp\\video_pipeline_ifohtln6\\portrait.mkv']' returned non-zero exit status 4294967274.
+2025-08-03 14:57:28,691 - __main__ - ERROR - Pipeline failed: Portrait transformation failed
+2025-08-03 14:57:28,708 - __main__ - INFO - Cleaned up temporary directory: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_ifohtln6
+2025-08-03 14:57:28,709 - __main__ - ERROR - Processing failed: Portrait transformation failed
+2025-08-03 15:47:58,925 - __main__ - INFO - Pipeline initialized with config: E:\Movies\Farzi S01 Hindi 720p WEB-DL ESub [BollyFlix]\jhc.mkv
+2025-08-03 15:47:58,933 - __main__ - INFO - Created temporary directory: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_196tfox0
+2025-08-03 15:47:58,934 - __main__ - INFO - Starting complete video processing pipeline...
+2025-08-03 15:47:58,935 - __main__ - INFO - Validating pipeline inputs...
+2025-08-03 15:47:58,937 - __main__ - INFO - Input validation completed successfully
+2025-08-03 15:47:58,938 - __main__ - INFO - Starting segment extraction...
+2025-08-03 15:47:58,939 - __main__ - INFO - Extracting segment 1/10: 00:02:24 to 00:03:00
+2025-08-03 15:47:59,421 - core.video_processor - INFO - Extracted segment: 00:02:24 to 00:03:00
+2025-08-03 15:47:59,421 - __main__ - INFO - Extracting segment 2/10: 00:03:16 to 00:03:53
+2025-08-03 15:47:59,680 - core.video_processor - INFO - Extracted segment: 00:03:16 to 00:03:53
+2025-08-03 15:47:59,680 - __main__ - INFO - Extracting segment 3/10: 00:04:00 to 00:04:40
+2025-08-03 15:48:00,185 - core.video_processor - INFO - Extracted segment: 00:04:00 to 00:04:40
+2025-08-03 15:48:00,185 - __main__ - INFO - Extracting segment 4/10: 00:05:00 to 00:05:30
+2025-08-03 15:48:00,572 - core.video_processor - INFO - Extracted segment: 00:05:00 to 00:05:30
+2025-08-03 15:48:00,573 - __main__ - INFO - Extracting segment 5/10: 00:06:00 to 00:06:45
+2025-08-03 15:48:01,239 - core.video_processor - INFO - Extracted segment: 00:06:00 to 00:06:45
+2025-08-03 15:48:01,243 - __main__ - INFO - Extracting segment 6/10: 00:07:10 to 00:07:50
+2025-08-03 15:48:01,649 - core.video_processor - INFO - Extracted segment: 00:07:10 to 00:07:50
+2025-08-03 15:48:01,649 - __main__ - INFO - Extracting segment 7/10: 00:08:05 to 00:08:40
+2025-08-03 15:48:02,622 - core.video_processor - INFO - Extracted segment: 00:08:05 to 00:08:40
+2025-08-03 15:48:02,623 - __main__ - INFO - Extracting segment 8/10: 00:09:00 to 00:09:40
+2025-08-03 15:48:03,667 - core.video_processor - INFO - Extracted segment: 00:09:00 to 00:09:40
+2025-08-03 15:48:03,668 - __main__ - INFO - Extracting segment 9/10: 00:10:00 to 00:10:30
+2025-08-03 15:48:04,222 - core.video_processor - INFO - Extracted segment: 00:10:00 to 00:10:30
+2025-08-03 15:48:04,222 - __main__ - INFO - Extracting segment 10/10: 00:11:00 to 00:11:40
+2025-08-03 15:48:04,714 - core.video_processor - INFO - Extracted segment: 00:11:00 to 00:11:40
+2025-08-03 15:48:05,620 - core.video_processor - INFO - Concatenated 10 segments
+2025-08-03 15:48:05,621 - __main__ - INFO - Successfully extracted and concatenated 10 segments
+2025-08-03 15:48:05,622 - __main__ - INFO - Applying color grading and enhancement...
+2025-08-03 15:51:06,015 - core.video_processor - INFO - Color grading applied successfully
+2025-08-03 15:51:06,015 - __main__ - INFO - Color grading completed successfully
+2025-08-03 15:51:06,016 - __main__ - INFO - Transforming to portrait format with background blur...
+2025-08-03 15:51:06,016 - __main__ - ERROR - Pipeline failed: 'VideoProcessor' object has no attribute 'transform_to_portrait'
+2025-08-03 15:51:06,066 - __main__ - INFO - Cleaned up temporary directory: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_196tfox0
+2025-08-03 15:51:06,066 - __main__ - ERROR - Processing failed: 'VideoProcessor' object has no attribute 'transform_to_portrait'
+2025-08-03 15:58:05,903 - __main__ - INFO - Pipeline initialized with config: E:\Movies\Farzi S01 Hindi 720p WEB-DL ESub [BollyFlix]\jhc.mkv
+2025-08-03 15:58:05,929 - __main__ - INFO - Created temporary directory: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_hifhfmpm
+2025-08-03 15:58:05,930 - __main__ - INFO - Starting complete video processing pipeline...
+2025-08-03 15:58:05,931 - __main__ - INFO - Validating pipeline inputs...
+2025-08-03 15:58:05,934 - __main__ - INFO - Input validation completed successfully
+2025-08-03 15:58:05,935 - __main__ - INFO - Starting segment extraction...
+2025-08-03 15:58:05,936 - __main__ - INFO - Extracting segment 1/10: 00:02:24 to 00:03:00
+2025-08-03 15:58:06,365 - core.video_processor - INFO - Extracted segment: 00:02:24 to 00:03:00
+2025-08-03 15:58:06,367 - __main__ - INFO - Extracting segment 2/10: 00:03:16 to 00:03:53
+2025-08-03 15:58:06,633 - core.video_processor - INFO - Extracted segment: 00:03:16 to 00:03:53
+2025-08-03 15:58:06,634 - __main__ - INFO - Extracting segment 3/10: 00:04:00 to 00:04:40
+2025-08-03 15:58:07,033 - core.video_processor - INFO - Extracted segment: 00:04:00 to 00:04:40
+2025-08-03 15:58:07,034 - __main__ - INFO - Extracting segment 4/10: 00:05:00 to 00:05:30
+2025-08-03 15:58:07,401 - core.video_processor - INFO - Extracted segment: 00:05:00 to 00:05:30
+2025-08-03 15:58:07,402 - __main__ - INFO - Extracting segment 5/10: 00:06:00 to 00:06:45
+2025-08-03 15:58:07,817 - core.video_processor - INFO - Extracted segment: 00:06:00 to 00:06:45
+2025-08-03 15:58:07,818 - __main__ - INFO - Extracting segment 6/10: 00:07:10 to 00:07:50
+2025-08-03 15:58:08,243 - core.video_processor - INFO - Extracted segment: 00:07:10 to 00:07:50
+2025-08-03 15:58:08,244 - __main__ - INFO - Extracting segment 7/10: 00:08:05 to 00:08:40
+2025-08-03 15:58:09,077 - core.video_processor - INFO - Extracted segment: 00:08:05 to 00:08:40
+2025-08-03 15:58:09,080 - __main__ - INFO - Extracting segment 8/10: 00:09:00 to 00:09:40
+2025-08-03 15:58:09,928 - core.video_processor - INFO - Extracted segment: 00:09:00 to 00:09:40
+2025-08-03 15:58:09,929 - __main__ - INFO - Extracting segment 9/10: 00:10:00 to 00:10:30
+2025-08-03 15:58:10,469 - core.video_processor - INFO - Extracted segment: 00:10:00 to 00:10:30
+2025-08-03 15:58:10,470 - __main__ - INFO - Extracting segment 10/10: 00:11:00 to 00:11:40
+2025-08-03 15:58:11,265 - core.video_processor - INFO - Extracted segment: 00:11:00 to 00:11:40
+2025-08-03 15:58:12,407 - core.video_processor - INFO - Concatenated 10 segments
+2025-08-03 15:58:12,408 - __main__ - INFO - Successfully extracted and concatenated 10 segments
+2025-08-03 15:58:12,408 - __main__ - INFO - Applying color grading and enhancement...
+2025-08-03 16:02:03,071 - core.video_processor - INFO - Color grading applied successfully
+2025-08-03 16:02:03,072 - __main__ - INFO - Color grading completed successfully
+2025-08-03 16:02:03,072 - __main__ - INFO - Transforming to portrait format with background blur...
+2025-08-03 16:02:03,072 - __main__ - ERROR - Pipeline failed: 'VideoProcessor' object has no attribute 'transform_to_portrait'
+2025-08-03 16:02:03,098 - __main__ - INFO - Cleaned up temporary directory: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_hifhfmpm
+2025-08-03 16:02:03,100 - __main__ - ERROR - Processing failed: 'VideoProcessor' object has no attribute 'transform_to_portrait'
+2025-08-03 16:06:21,603 - __main__ - INFO - Pipeline initialized with config: E:\Movies\Farzi S01 Hindi 720p WEB-DL ESub [BollyFlix]\jhc.mkv
+2025-08-03 16:06:21,608 - __main__ - INFO - Created temporary directory: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_wc46wnj6
+2025-08-03 16:06:21,609 - __main__ - INFO - Starting complete video processing pipeline...
+2025-08-03 16:06:21,609 - __main__ - INFO - Validating pipeline inputs...
+2025-08-03 16:06:21,612 - __main__ - INFO - Input validation completed successfully
+2025-08-03 16:06:21,612 - __main__ - INFO - Starting segment extraction...
+2025-08-03 16:06:21,613 - __main__ - INFO - Extracting segment 1/10: 00:02:24 to 00:03:00
+2025-08-03 16:06:21,897 - core.video_processor - INFO - Extracted segment: 00:02:24 to 00:03:00
+2025-08-03 16:06:21,898 - __main__ - INFO - Extracting segment 2/10: 00:03:16 to 00:03:53
+2025-08-03 16:06:22,113 - core.video_processor - INFO - Extracted segment: 00:03:16 to 00:03:53
+2025-08-03 16:06:22,114 - __main__ - INFO - Extracting segment 3/10: 00:04:00 to 00:04:40
+2025-08-03 16:06:22,429 - core.video_processor - INFO - Extracted segment: 00:04:00 to 00:04:40
+2025-08-03 16:06:22,430 - __main__ - INFO - Extracting segment 4/10: 00:05:00 to 00:05:30
+2025-08-03 16:06:22,703 - core.video_processor - INFO - Extracted segment: 00:05:00 to 00:05:30
+2025-08-03 16:06:22,703 - __main__ - INFO - Extracting segment 5/10: 00:06:00 to 00:06:45
+2025-08-03 16:06:22,992 - core.video_processor - INFO - Extracted segment: 00:06:00 to 00:06:45
+2025-08-03 16:06:22,993 - __main__ - INFO - Extracting segment 6/10: 00:07:10 to 00:07:50
+2025-08-03 16:06:23,321 - core.video_processor - INFO - Extracted segment: 00:07:10 to 00:07:50
+2025-08-03 16:06:23,322 - __main__ - INFO - Extracting segment 7/10: 00:08:05 to 00:08:40
+2025-08-03 16:06:23,666 - core.video_processor - INFO - Extracted segment: 00:08:05 to 00:08:40
+2025-08-03 16:06:23,667 - __main__ - INFO - Extracting segment 8/10: 00:09:00 to 00:09:40
+2025-08-03 16:06:24,073 - core.video_processor - INFO - Extracted segment: 00:09:00 to 00:09:40
+2025-08-03 16:06:24,074 - __main__ - INFO - Extracting segment 9/10: 00:10:00 to 00:10:30
+2025-08-03 16:06:24,454 - core.video_processor - INFO - Extracted segment: 00:10:00 to 00:10:30
+2025-08-03 16:06:24,455 - __main__ - INFO - Extracting segment 10/10: 00:11:00 to 00:11:40
+2025-08-03 16:06:24,867 - core.video_processor - INFO - Extracted segment: 00:11:00 to 00:11:40
+2025-08-03 16:06:25,625 - core.video_processor - INFO - Concatenated 10 segments
+2025-08-03 16:06:25,626 - __main__ - INFO - Successfully extracted and concatenated 10 segments
+2025-08-03 16:06:25,626 - __main__ - INFO - Applying color grading and enhancement...
+2025-08-03 16:07:10,876 - core.video_processor - ERROR - Color grading failed: Command '['ffmpeg', '-y', '-i', 'C:\\Users\\KINGST~1\\AppData\\Local\\Temp\\video_pipeline_wc46wnj6\\concatenated.mkv', '-vf', 'eq=brightness=0.06:contrast=1.15:saturation=1.15,unsharp=7:7:1.0:7:7:0', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '18', '-c:a', 'copy', 'C:\\Users\\KINGST~1\\AppData\\Local\\Temp\\video_pipeline_wc46wnj6\\color_graded.mkv']' returned non-zero exit status 3221225786.
+2025-08-03 16:10:21,729 - __main__ - INFO - Pipeline initialized with config: E:\Movies\Farzi S01 Hindi 720p WEB-DL ESub [BollyFlix]\jhc.mkv
+2025-08-03 16:10:21,735 - __main__ - INFO - Created temporary directory: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_8gmzu4sz
+2025-08-03 16:10:21,736 - __main__ - INFO - Starting complete video processing pipeline...
+2025-08-03 16:10:21,736 - __main__ - INFO - Validating pipeline inputs...
+2025-08-03 16:10:21,739 - __main__ - INFO - Input validation completed successfully
+2025-08-03 16:10:21,739 - __main__ - INFO - Starting segment extraction...
+2025-08-03 16:10:21,739 - __main__ - INFO - Extracting segment 1/10: 00:02:24 to 00:03:00
+2025-08-03 16:10:21,995 - core.video_processor - INFO - Extracted segment: 00:02:24 to 00:03:00
+2025-08-03 16:10:21,995 - __main__ - INFO - Extracting segment 2/10: 00:03:16 to 00:03:53
+2025-08-03 16:10:22,242 - core.video_processor - INFO - Extracted segment: 00:03:16 to 00:03:53
+2025-08-03 16:10:22,243 - __main__ - INFO - Extracting segment 3/10: 00:04:00 to 00:04:40
+2025-08-03 16:10:22,492 - core.video_processor - INFO - Extracted segment: 00:04:00 to 00:04:40
+2025-08-03 16:10:22,493 - __main__ - INFO - Extracting segment 4/10: 00:05:00 to 00:05:30
+2025-08-03 16:10:22,764 - core.video_processor - INFO - Extracted segment: 00:05:00 to 00:05:30
+2025-08-03 16:10:22,765 - __main__ - INFO - Extracting segment 5/10: 00:06:00 to 00:06:45
+2025-08-03 16:10:23,057 - core.video_processor - INFO - Extracted segment: 00:06:00 to 00:06:45
+2025-08-03 16:10:23,057 - __main__ - INFO - Extracting segment 6/10: 00:07:10 to 00:07:50
+2025-08-03 16:10:23,396 - core.video_processor - INFO - Extracted segment: 00:07:10 to 00:07:50
+2025-08-03 16:10:23,397 - __main__ - INFO - Extracting segment 7/10: 00:08:05 to 00:08:40
+2025-08-03 16:10:23,739 - core.video_processor - INFO - Extracted segment: 00:08:05 to 00:08:40
+2025-08-03 16:10:23,739 - __main__ - INFO - Extracting segment 8/10: 00:09:00 to 00:09:40
+2025-08-03 16:10:24,141 - core.video_processor - INFO - Extracted segment: 00:09:00 to 00:09:40
+2025-08-03 16:10:24,141 - __main__ - INFO - Extracting segment 9/10: 00:10:00 to 00:10:30
+2025-08-03 16:10:24,534 - core.video_processor - INFO - Extracted segment: 00:10:00 to 00:10:30
+2025-08-03 16:10:24,534 - __main__ - INFO - Extracting segment 10/10: 00:11:00 to 00:11:40
+2025-08-03 16:10:24,949 - core.video_processor - INFO - Extracted segment: 00:11:00 to 00:11:40
+2025-08-03 16:10:25,793 - core.video_processor - INFO - Concatenated 10 segments
+2025-08-03 16:10:25,794 - __main__ - INFO - Successfully extracted and concatenated 10 segments
+2025-08-03 16:10:25,795 - __main__ - INFO - Applying color grading and enhancement...
+2025-08-03 16:13:31,597 - core.video_processor - INFO - Color grading applied successfully
+2025-08-03 16:13:31,597 - __main__ - INFO - Color grading completed successfully
+2025-08-03 16:13:31,597 - __main__ - INFO - Transforming to portrait format with background blur...
+2025-08-03 16:13:31,598 - __main__ - ERROR - Pipeline failed: 'VideoProcessor' object has no attribute 'transform_to_portrait'
+2025-08-03 16:13:31,634 - __main__ - INFO - Cleaned up temporary directory: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_8gmzu4sz
+2025-08-03 16:13:31,634 - __main__ - ERROR - Processing failed: 'VideoProcessor' object has no attribute 'transform_to_portrait'
+2025-08-03 18:45:28,340 - __main__ - INFO - Pipeline initialized with config: E:\Movies\Farzi S01 Hindi 720p WEB-DL ESub [BollyFlix]\jhc.mkv
+2025-08-03 18:45:28,345 - __main__ - INFO - Created temporary directory: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_t4u27mxg
+2025-08-03 18:45:28,345 - __main__ - INFO - Starting complete video processing pipeline...
+2025-08-03 18:45:28,346 - __main__ - INFO - Validating pipeline inputs...
+2025-08-03 18:45:28,349 - __main__ - INFO - Input validation completed successfully
+2025-08-03 18:45:28,350 - __main__ - INFO - Starting segment extraction...
+2025-08-03 18:45:28,352 - __main__ - INFO - Extracting segment 1/10: 00:02:24 to 00:03:00
+2025-08-03 18:45:29,640 - core.video_processor - INFO - Extracted segment: 00:02:24 to 00:03:00
+2025-08-03 18:45:29,640 - __main__ - INFO - Extracting segment 2/10: 00:03:16 to 00:03:53
+2025-08-03 18:45:29,855 - core.video_processor - INFO - Extracted segment: 00:03:16 to 00:03:53
+2025-08-03 18:45:29,856 - __main__ - INFO - Extracting segment 3/10: 00:04:00 to 00:04:40
+2025-08-03 18:45:30,089 - core.video_processor - INFO - Extracted segment: 00:04:00 to 00:04:40
+2025-08-03 18:45:30,089 - __main__ - INFO - Extracting segment 4/10: 00:05:00 to 00:05:30
+2025-08-03 18:45:30,347 - core.video_processor - INFO - Extracted segment: 00:05:00 to 00:05:30
+2025-08-03 18:45:30,347 - __main__ - INFO - Extracting segment 5/10: 00:06:00 to 00:06:45
+2025-08-03 18:45:30,633 - core.video_processor - INFO - Extracted segment: 00:06:00 to 00:06:45
+2025-08-03 18:45:30,633 - __main__ - INFO - Extracting segment 6/10: 00:07:10 to 00:07:50
+2025-08-03 18:45:30,956 - core.video_processor - INFO - Extracted segment: 00:07:10 to 00:07:50
+2025-08-03 18:45:30,957 - __main__ - INFO - Extracting segment 7/10: 00:08:05 to 00:08:40
+2025-08-03 18:45:31,302 - core.video_processor - INFO - Extracted segment: 00:08:05 to 00:08:40
+2025-08-03 18:45:31,303 - __main__ - INFO - Extracting segment 8/10: 00:09:00 to 00:09:40
+2025-08-03 18:45:31,715 - core.video_processor - INFO - Extracted segment: 00:09:00 to 00:09:40
+2025-08-03 18:45:31,715 - __main__ - INFO - Extracting segment 9/10: 00:10:00 to 00:10:30
+2025-08-03 18:45:32,100 - core.video_processor - INFO - Extracted segment: 00:10:00 to 00:10:30
+2025-08-03 18:45:32,100 - __main__ - INFO - Extracting segment 10/10: 00:11:00 to 00:11:40
+2025-08-03 18:45:32,518 - core.video_processor - INFO - Extracted segment: 00:11:00 to 00:11:40
+2025-08-03 18:45:33,315 - core.video_processor - INFO - Concatenated 10 segments
+2025-08-03 18:45:33,316 - __main__ - INFO - Successfully extracted and concatenated 10 segments
+2025-08-03 18:45:33,317 - __main__ - INFO - Applying color grading and enhancement...
+2025-08-03 18:48:35,152 - core.video_processor - INFO - Color grading applied successfully
+2025-08-03 18:48:35,153 - __main__ - INFO - Color grading completed successfully
+2025-08-03 18:48:35,153 - __main__ - INFO - Transforming to portrait format with background blur...
+2025-08-03 18:48:35,154 - __main__ - ERROR - Pipeline failed: 'VideoProcessor' object has no attribute 'transform_to_portrait'
+2025-08-03 18:48:35,201 - __main__ - INFO - Cleaned up temporary directory: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_t4u27mxg
+2025-08-03 18:48:35,201 - __main__ - ERROR - Processing failed: 'VideoProcessor' object has no attribute 'transform_to_portrait'
+2025-08-03 19:51:41,649 - __main__ - INFO - Pipeline initialized with config: E:\Movies\Farzi S01 Hindi 720p WEB-DL ESub [BollyFlix]\jhc.mkv
+2025-08-03 19:51:41,658 - __main__ - INFO - Created temporary directory: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_gwkltvus
+2025-08-03 19:51:41,671 - __main__ - INFO - Starting complete video processing pipeline...
+2025-08-03 19:51:41,672 - __main__ - INFO - Validating pipeline inputs...
+2025-08-03 19:51:41,675 - __main__ - INFO - Input validation completed successfully
+2025-08-03 19:51:41,676 - __main__ - INFO - Starting segment extraction...
+2025-08-03 19:51:41,677 - __main__ - INFO - Extracting segment 1/10: 00:02:24 to 00:03:00
+2025-08-03 19:51:41,678 - __main__ - ERROR - Pipeline failed: 'VideoProcessor' object has no attribute 'extract_segment'
+2025-08-03 19:51:41,683 - __main__ - INFO - Cleaned up temporary directory: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_gwkltvus
+2025-08-03 19:51:41,684 - __main__ - ERROR - Processing failed: 'VideoProcessor' object has no attribute 'extract_segment'
+2025-08-03 19:57:02,726 - __main__ - INFO - Pipeline initialized with config: E:\Movies\Farzi S01 Hindi 720p WEB-DL ESub [BollyFlix]\jhc.mkv
+2025-08-03 19:57:02,753 - __main__ - INFO - Created temporary directory: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_fpzf7x8w
+2025-08-03 19:57:02,755 - __main__ - INFO - Starting complete video processing pipeline...
+2025-08-03 19:57:02,768 - __main__ - INFO - Validating pipeline inputs...
+2025-08-03 19:57:02,778 - __main__ - INFO - Input validation completed successfully
+2025-08-03 19:57:02,779 - __main__ - INFO - Starting segment extraction...
+2025-08-03 19:57:02,780 - __main__ - INFO - Extracting segment 1/10: 00:02:24 to 00:03:00
+2025-08-03 19:57:02,781 - __main__ - ERROR - Pipeline failed: 'VideoProcessor' object has no attribute 'extract_segment'
+2025-08-03 19:57:02,783 - __main__ - INFO - Cleaned up temporary directory: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_fpzf7x8w
+2025-08-03 19:57:02,784 - __main__ - ERROR - Processing failed: 'VideoProcessor' object has no attribute 'extract_segment'
+2025-08-03 20:04:19,391 - __main__ - INFO - Pipeline initialized with config: E:\Movies\Farzi S01 Hindi 720p WEB-DL ESub [BollyFlix]\output\jhc.mkv
+2025-08-03 20:04:19,402 - __main__ - INFO - Created temporary directory: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_o8m4qvc1
+2025-08-03 20:04:19,404 - __main__ - INFO - Starting complete video processing pipeline...
+2025-08-03 20:04:19,404 - __main__ - INFO - Validating pipeline inputs...
+2025-08-03 20:04:19,407 - __main__ - INFO - Input validation completed successfully
+2025-08-03 20:04:19,409 - __main__ - INFO - Starting segment extraction...
+2025-08-03 20:04:19,415 - __main__ - INFO - Extracting segment 1/10: 00:02:24 to 00:03:00
+2025-08-03 20:04:19,439 - __main__ - ERROR - Pipeline failed: 'VideoProcessor' object has no attribute 'extract_segment'
+2025-08-03 20:04:19,476 - __main__ - INFO - Cleaned up temporary directory: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_o8m4qvc1
+2025-08-03 20:04:19,490 - __main__ - ERROR - Processing failed: 'VideoProcessor' object has no attribute 'extract_segment'
+2025-08-03 20:20:33,478 - __main__ - INFO - Pipeline initialized with config: E:\Movies\Farzi S01 Hindi 720p WEB-DL ESub [BollyFlix]\output\jhc.mkv
+2025-08-03 20:20:33,485 - __main__ - INFO - Created temporary directory: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_sv44lbw8
+2025-08-03 20:20:33,491 - __main__ - INFO - Starting complete video processing pipeline...
+2025-08-03 20:20:33,501 - __main__ - INFO - Validating pipeline inputs...
+2025-08-03 20:20:33,512 - __main__ - INFO - Input validation completed successfully
+2025-08-03 20:20:33,514 - __main__ - INFO - Starting segment extraction...
+2025-08-03 20:20:33,515 - __main__ - INFO - Extracting segment 1/10: 00:02:24 to 00:03:00
+2025-08-03 20:20:33,767 - core.video_processor - INFO - Extracted segment: 00:02:24 -> 00:03:00 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_sv44lbw8\segment_000.mkv)
+2025-08-03 20:20:33,768 - __main__ - INFO - Extracting segment 2/10: 00:03:16 to 00:03:53
+2025-08-03 20:20:33,989 - core.video_processor - INFO - Extracted segment: 00:03:16 -> 00:03:53 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_sv44lbw8\segment_001.mkv)
+2025-08-03 20:20:33,990 - __main__ - INFO - Extracting segment 3/10: 00:04:00 to 00:04:40
+2025-08-03 20:20:34,334 - core.video_processor - INFO - Extracted segment: 00:04:00 -> 00:04:40 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_sv44lbw8\segment_002.mkv)
+2025-08-03 20:20:34,335 - __main__ - INFO - Extracting segment 4/10: 00:05:00 to 00:05:30
+2025-08-03 20:20:34,592 - core.video_processor - INFO - Extracted segment: 00:05:00 -> 00:05:30 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_sv44lbw8\segment_003.mkv)
+2025-08-03 20:20:34,593 - __main__ - INFO - Extracting segment 5/10: 00:06:00 to 00:06:45
+2025-08-03 20:20:34,869 - core.video_processor - INFO - Extracted segment: 00:06:00 -> 00:06:45 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_sv44lbw8\segment_004.mkv)
+2025-08-03 20:20:34,870 - __main__ - INFO - Extracting segment 6/10: 00:07:10 to 00:07:50
+2025-08-03 20:20:35,192 - core.video_processor - INFO - Extracted segment: 00:07:10 -> 00:07:50 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_sv44lbw8\segment_005.mkv)
+2025-08-03 20:20:35,193 - __main__ - INFO - Extracting segment 7/10: 00:08:05 to 00:08:40
+2025-08-03 20:20:35,535 - core.video_processor - INFO - Extracted segment: 00:08:05 -> 00:08:40 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_sv44lbw8\segment_006.mkv)
+2025-08-03 20:20:35,536 - __main__ - INFO - Extracting segment 8/10: 00:09:00 to 00:09:40
+2025-08-03 20:20:35,914 - core.video_processor - INFO - Extracted segment: 00:09:00 -> 00:09:40 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_sv44lbw8\segment_007.mkv)
+2025-08-03 20:20:35,915 - __main__ - INFO - Extracting segment 9/10: 00:10:00 to 00:10:30
+2025-08-03 20:20:36,315 - core.video_processor - INFO - Extracted segment: 00:10:00 -> 00:10:30 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_sv44lbw8\segment_008.mkv)
+2025-08-03 20:20:36,316 - __main__ - INFO - Extracting segment 10/10: 00:11:00 to 00:11:40
+2025-08-03 20:20:36,725 - core.video_processor - INFO - Extracted segment: 00:11:00 -> 00:11:40 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_sv44lbw8\segment_009.mkv)
+2025-08-03 20:20:37,461 - core.video_processor - INFO - Concatenated 10 segments to C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_sv44lbw8\concatenated.mkv
+2025-08-03 20:20:37,462 - __main__ - INFO - Successfully extracted and concatenated 10 segments
+2025-08-03 20:20:37,462 - __main__ - INFO - Applying color grading and enhancement...
+2025-08-03 20:23:41,122 - core.video_processor - INFO - Color grading applied: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_sv44lbw8\color_graded.mkv
+2025-08-03 20:23:41,122 - __main__ - INFO - Color grading completed successfully
+2025-08-03 20:23:41,123 - __main__ - INFO - Transforming to portrait format with background blur...
+2025-08-03 20:27:11,151 - core.video_processor - INFO - Portrait transformation completed: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_sv44lbw8\portrait.mkv
+2025-08-03 20:27:11,152 - __main__ - INFO - Portrait transformation completed successfully
+2025-08-03 20:27:11,152 - __main__ - INFO - Generating transcription using Whisper...
+2025-08-03 20:29:40,269 - core.audio_processor - INFO - Loaded Whisper model: base.en
+2025-08-03 20:29:42,085 - core.audio_processor - INFO - Audio extracted to: C:\Users\KINGST~1\AppData\Local\Temp\tmpemwqf4ug.wav
+2025-08-03 20:29:42,085 - core.audio_processor - INFO - Starting transcription...
+2025-08-03 20:29:43,198 - core.audio_processor - ERROR - Transcription failed: DecodingOptions.__init__() got an unexpected keyword argument 'word_timestamps'. Did you mean 'without_timestamps'?
+2025-08-03 20:29:43,212 - __main__ - WARNING - Transcription failed, creating dummy transcription
+2025-08-03 20:29:43,215 - __main__ - INFO - Transcription completed with 0 segments
+2025-08-03 20:29:43,216 - __main__ - INFO - Creating Submagic-style subtitles...
+2025-08-03 20:29:43,277 - core.subtitle_generator - INFO - Created Submagic-style subtitles: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_sv44lbw8\subtitles.ass
+2025-08-03 20:29:43,278 - __main__ - INFO - Subtitles created successfully
+2025-08-03 20:29:43,279 - __main__ - INFO - Rendering final video with subtitles...
+2025-08-03 20:29:43,363 - core.video_processor - ERROR - Final video rendering failed: ffmpeg version 2025-06-26-git-09cd38e9d5-full_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 15.1.0 (Rev4, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-lcms2 --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-liboapv --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-openal --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      60.  3.100 / 60.  3.100
+  libavcodec     62.  4.100 / 62.  4.100
+  libavformat    62.  1.100 / 62.  1.100
+  libavdevice    62.  0.100 / 62.  0.100
+  libavfilter    11.  0.100 / 11.  0.100
+  libswscale      9.  0.100 /  9.  0.100
+  libswresample   6.  0.100 /  6.  0.100
+Input #0, matroska,webm, from 'C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_sv44lbw8\portrait.mkv':
+  Metadata:
+    ENCODER         : Lavf62.1.100
+  Duration: 00:06:20.54, start: -0.021000, bitrate: 2377 kb/s
+  Stream #0:0: Video: h264 (High), yuv420p(tv, bt709, progressive), 1080x1920 [SAR 1:1 DAR 9:16], 24 fps, 24 tbr, 1k tbn, start 1.042000
+    Metadata:
+      ENCODER         : Lavc62.4.100 libx264
+      DURATION        : 00:06:20.542000000
+  Stream #0:1(hin): Audio: aac (LC), 48000 Hz, 5.1, fltp, start -0.021000
+    Metadata:
+      ENCODER         : Lavc62.4.100 aac
+      BPS             : 159999
+      NUMBER_OF_FRAMES: 167009
+      NUMBER_OF_BYTES : 71257174
+      _STATISTICS_WRITING_APP: mkvmerge v73.0.0 ('25 or 6 to 4') 64-bit
+      _STATISTICS_WRITING_DATE_UTC: 2023-02-09 16:11:42
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+      DURATION        : 00:06:20.361000000
+[Parsed_ass_0 @ 000001999664dd80] Unable to parse option value "UsersKINGST~1AppDataLocalTempvideo_pipeline_sv44lbw8subtitles.ass" as image size
+[fc#-1 @ 00000199965c6a80] Error applying option 'original_size' to filter 'ass': Invalid argument
+Error opening output file E:\Movies\Farzi S01 Hindi 720p WEB-DL ESub [BollyFlix]\output\final_video_20250803_202943_f9b50dcc.mp4.
+Error opening output files: Invalid argument
+
+2025-08-03 20:29:43,373 - __main__ - ERROR - Pipeline failed: Final video rendering failed
+2025-08-03 20:29:43,427 - __main__ - INFO - Cleaned up temporary directory: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_sv44lbw8
+2025-08-03 20:29:43,427 - __main__ - ERROR - Processing failed: Final video rendering failed
+2025-08-03 20:50:12,334 - __main__ - INFO - Pipeline initialized with config: E:\Movies\Farzi S01 Hindi 720p WEB-DL ESub [BollyFlix]\output\jhc.mkv
+2025-08-03 20:50:12,344 - __main__ - INFO - Created temporary directory: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_5pk96g8l
+2025-08-03 20:50:12,347 - __main__ - INFO - Starting complete video processing pipeline...
+2025-08-03 20:50:12,351 - __main__ - INFO - Validating pipeline inputs...
+2025-08-03 20:50:12,366 - __main__ - INFO - Input validation completed successfully
+2025-08-03 20:50:12,367 - __main__ - INFO - Starting segment extraction...
+2025-08-03 20:50:12,367 - __main__ - INFO - Extracting segment 1/10: 00:02:24 to 00:03:00
+2025-08-03 20:50:12,614 - core.video_processor - INFO - Extracted segment: 00:02:24 -> 00:03:00 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_5pk96g8l\segment_000.mkv)
+2025-08-03 20:50:12,615 - __main__ - INFO - Extracting segment 2/10: 00:03:16 to 00:03:53
+2025-08-03 20:50:12,890 - core.video_processor - INFO - Extracted segment: 00:03:16 -> 00:03:53 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_5pk96g8l\segment_001.mkv)
+2025-08-03 20:50:12,891 - __main__ - INFO - Extracting segment 3/10: 00:04:00 to 00:04:40
+2025-08-03 20:50:13,221 - core.video_processor - INFO - Extracted segment: 00:04:00 -> 00:04:40 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_5pk96g8l\segment_002.mkv)
+2025-08-03 20:50:13,222 - __main__ - INFO - Extracting segment 4/10: 00:05:00 to 00:05:30
+2025-08-03 20:50:13,548 - core.video_processor - INFO - Extracted segment: 00:05:00 -> 00:05:30 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_5pk96g8l\segment_003.mkv)
+2025-08-03 20:50:13,549 - __main__ - INFO - Extracting segment 5/10: 00:06:00 to 00:06:45
+2025-08-03 20:50:13,893 - core.video_processor - INFO - Extracted segment: 00:06:00 -> 00:06:45 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_5pk96g8l\segment_004.mkv)
+2025-08-03 20:50:13,893 - __main__ - INFO - Extracting segment 6/10: 00:07:10 to 00:07:50
+2025-08-03 20:50:14,227 - core.video_processor - INFO - Extracted segment: 00:07:10 -> 00:07:50 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_5pk96g8l\segment_005.mkv)
+2025-08-03 20:50:14,229 - __main__ - INFO - Extracting segment 7/10: 00:08:05 to 00:08:40
+2025-08-03 20:50:14,568 - core.video_processor - INFO - Extracted segment: 00:08:05 -> 00:08:40 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_5pk96g8l\segment_006.mkv)
+2025-08-03 20:50:14,569 - __main__ - INFO - Extracting segment 8/10: 00:09:00 to 00:09:40
+2025-08-03 20:50:14,962 - core.video_processor - INFO - Extracted segment: 00:09:00 -> 00:09:40 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_5pk96g8l\segment_007.mkv)
+2025-08-03 20:50:14,964 - __main__ - INFO - Extracting segment 9/10: 00:10:00 to 00:10:30
+2025-08-03 20:50:15,348 - core.video_processor - INFO - Extracted segment: 00:10:00 -> 00:10:30 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_5pk96g8l\segment_008.mkv)
+2025-08-03 20:50:15,349 - __main__ - INFO - Extracting segment 10/10: 00:11:00 to 00:11:40
+2025-08-03 20:50:15,757 - core.video_processor - INFO - Extracted segment: 00:11:00 -> 00:11:40 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_5pk96g8l\segment_009.mkv)
+2025-08-03 20:50:16,504 - core.video_processor - INFO - Concatenated 10 segments to C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_5pk96g8l\concatenated.mkv
+2025-08-03 20:50:16,505 - __main__ - INFO - Successfully extracted and concatenated 10 segments
+2025-08-03 20:50:16,506 - __main__ - INFO - Applying color grading and enhancement...
+2025-08-03 20:53:49,149 - core.video_processor - INFO - Color grading applied: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_5pk96g8l\color_graded.mkv
+2025-08-03 20:53:49,150 - __main__ - INFO - Color grading completed successfully
+2025-08-03 20:53:49,151 - __main__ - INFO - Transforming to portrait format with background blur...
+2025-08-03 20:58:02,454 - core.video_processor - INFO - Portrait transformation completed: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_5pk96g8l\portrait.mkv
+2025-08-03 20:58:02,455 - __main__ - INFO - Portrait transformation completed successfully
+2025-08-03 20:58:02,455 - __main__ - INFO - Generating transcription using Whisper...
+2025-08-03 20:58:17,133 - core.audio_processor - INFO - Loaded Whisper model: base.en
+2025-08-03 20:58:19,333 - core.audio_processor - INFO - Audio extracted to: C:\Users\KINGST~1\AppData\Local\Temp\tmpgd0w26hd.wav
+2025-08-03 20:58:19,333 - core.audio_processor - INFO - Starting transcription...
+2025-08-03 20:58:20,421 - core.audio_processor - ERROR - Transcription failed: DecodingOptions.__init__() got an unexpected keyword argument 'word_timestamps'. Did you mean 'without_timestamps'?
+2025-08-03 20:58:20,439 - __main__ - WARNING - Transcription failed, creating dummy transcription
+2025-08-03 20:58:20,441 - __main__ - INFO - Transcription completed with 0 segments
+2025-08-03 20:58:20,442 - __main__ - INFO - Creating Submagic-style subtitles...
+2025-08-03 20:58:20,486 - core.subtitle_generator - INFO - Created Submagic-style subtitles: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_5pk96g8l\subtitles.ass
+2025-08-03 20:58:20,488 - __main__ - INFO - Subtitles created successfully
+2025-08-03 20:58:20,489 - __main__ - INFO - Rendering final video with subtitles...
+2025-08-03 20:58:20,489 - __main__ - ERROR - Pipeline failed: 'VideoProcessor' object has no attribute 'render_final_video'
+2025-08-03 20:58:20,552 - __main__ - INFO - Cleaned up temporary directory: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_5pk96g8l
+2025-08-03 20:58:20,553 - __main__ - ERROR - Processing failed: 'VideoProcessor' object has no attribute 'render_final_video'
+2025-08-03 21:24:13,423 - __main__ - INFO - Pipeline initialized with config: E:\Movies\Farzi S01 Hindi 720p WEB-DL ESub [BollyFlix]\output\jhc.mkv
+2025-08-03 21:24:13,428 - __main__ - INFO - Created temporary directory: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_6q3qczc3
+2025-08-03 21:24:13,428 - __main__ - INFO - Starting complete video processing pipeline...
+2025-08-03 21:24:13,429 - __main__ - INFO - Validating pipeline inputs...
+2025-08-03 21:24:13,444 - __main__ - INFO - Input validation completed successfully
+2025-08-03 21:24:13,449 - __main__ - INFO - Starting segment extraction...
+2025-08-03 21:24:13,460 - __main__ - INFO - Extracting segment 1/10: 00:02:24 to 00:03:00
+2025-08-03 21:24:15,478 - core.video_processor - INFO - Extracted segment: 00:02:24 -> 00:03:00 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_6q3qczc3\segment_000.mkv)
+2025-08-03 21:24:15,480 - __main__ - INFO - Extracting segment 2/10: 00:03:16 to 00:03:53
+2025-08-03 21:24:15,843 - core.video_processor - INFO - Extracted segment: 00:03:16 -> 00:03:53 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_6q3qczc3\segment_001.mkv)
+2025-08-03 21:24:15,853 - __main__ - INFO - Extracting segment 3/10: 00:04:00 to 00:04:40
+2025-08-03 21:24:16,259 - core.video_processor - INFO - Extracted segment: 00:04:00 -> 00:04:40 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_6q3qczc3\segment_002.mkv)
+2025-08-03 21:24:16,260 - __main__ - INFO - Extracting segment 4/10: 00:05:00 to 00:05:30
+2025-08-03 21:24:16,663 - core.video_processor - INFO - Extracted segment: 00:05:00 -> 00:05:30 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_6q3qczc3\segment_003.mkv)
+2025-08-03 21:24:16,664 - __main__ - INFO - Extracting segment 5/10: 00:06:00 to 00:06:45
+2025-08-03 21:24:17,066 - core.video_processor - INFO - Extracted segment: 00:06:00 -> 00:06:45 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_6q3qczc3\segment_004.mkv)
+2025-08-03 21:24:17,067 - __main__ - INFO - Extracting segment 6/10: 00:07:10 to 00:07:50
+2025-08-03 21:24:17,562 - core.video_processor - INFO - Extracted segment: 00:07:10 -> 00:07:50 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_6q3qczc3\segment_005.mkv)
+2025-08-03 21:24:17,563 - __main__ - INFO - Extracting segment 7/10: 00:08:05 to 00:08:40
+2025-08-03 21:24:18,197 - core.video_processor - INFO - Extracted segment: 00:08:05 -> 00:08:40 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_6q3qczc3\segment_006.mkv)
+2025-08-03 21:24:18,199 - __main__ - INFO - Extracting segment 8/10: 00:09:00 to 00:09:40
+2025-08-03 21:24:18,887 - core.video_processor - INFO - Extracted segment: 00:09:00 -> 00:09:40 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_6q3qczc3\segment_007.mkv)
+2025-08-03 21:24:18,888 - __main__ - INFO - Extracting segment 9/10: 00:10:00 to 00:10:30
+2025-08-03 21:24:19,584 - core.video_processor - INFO - Extracted segment: 00:10:00 -> 00:10:30 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_6q3qczc3\segment_008.mkv)
+2025-08-03 21:24:19,586 - __main__ - INFO - Extracting segment 10/10: 00:11:00 to 00:11:40
+2025-08-03 21:24:20,437 - core.video_processor - INFO - Extracted segment: 00:11:00 -> 00:11:40 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_6q3qczc3\segment_009.mkv)
+2025-08-03 21:24:21,832 - core.video_processor - INFO - Concatenated 10 segments to C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_6q3qczc3\concatenated.mkv
+2025-08-03 21:24:21,833 - __main__ - INFO - Successfully extracted and concatenated 10 segments
+2025-08-03 21:24:21,834 - __main__ - INFO - Applying color grading and enhancement...
+2025-08-03 21:28:14,538 - core.video_processor - INFO - Color grading applied: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_6q3qczc3\color_graded.mkv
+2025-08-03 21:28:14,539 - __main__ - INFO - Color grading completed successfully
+2025-08-03 21:28:14,540 - __main__ - INFO - Transforming to portrait format with background blur...
+2025-08-03 21:32:15,076 - core.video_processor - INFO - Portrait transformation completed: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_6q3qczc3\portrait.mkv
+2025-08-03 21:32:15,078 - __main__ - INFO - Portrait transformation completed successfully
+2025-08-03 21:32:15,079 - __main__ - INFO - Generating transcription using Whisper...
+2025-08-03 21:32:37,243 - core.audio_processor - INFO - Loaded Whisper model: base.en
+2025-08-03 21:32:39,695 - core.audio_processor - INFO - Audio extracted to: C:\Users\KINGST~1\AppData\Local\Temp\tmp7x2duc87.wav
+2025-08-03 21:32:39,695 - core.audio_processor - INFO - Starting transcription...
+2025-08-03 21:32:41,073 - core.audio_processor - ERROR - Transcription failed: DecodingOptions.__init__() got an unexpected keyword argument 'word_timestamps'. Did you mean 'without_timestamps'?
+2025-08-03 21:32:41,092 - __main__ - WARNING - Transcription failed, creating dummy transcription
+2025-08-03 21:32:41,096 - __main__ - INFO - Transcription completed with 0 segments
+2025-08-03 21:32:41,096 - __main__ - INFO - Creating Submagic-style subtitles...
+2025-08-03 21:32:41,151 - core.subtitle_generator - INFO - Created Submagic-style subtitles: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_6q3qczc3\subtitles.ass
+2025-08-03 21:32:41,152 - __main__ - INFO - Subtitles created successfully
+2025-08-03 21:32:41,152 - __main__ - INFO - Rendering final video with subtitles...
+2025-08-03 21:32:41,153 - __main__ - ERROR - Pipeline failed: 'VideoProcessor' object has no attribute 'render_final_video'
+2025-08-03 21:32:41,208 - __main__ - INFO - Cleaned up temporary directory: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_6q3qczc3
+2025-08-03 21:32:41,209 - __main__ - ERROR - Processing failed: 'VideoProcessor' object has no attribute 'render_final_video'
+2025-08-03 22:07:47,565 - __main__ - INFO - Pipeline initialized with config: E:\Movies\Farzi S01 Hindi 720p WEB-DL ESub [BollyFlix]\output\jhc.mkv
+2025-08-03 22:07:47,569 - __main__ - INFO - Created temporary directory: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_bsrdzlfq
+2025-08-03 22:07:47,570 - __main__ - INFO - Starting complete video processing pipeline...
+2025-08-03 22:07:47,572 - __main__ - INFO - Validating pipeline inputs...
+2025-08-03 22:07:47,574 - __main__ - INFO - Input validation completed successfully
+2025-08-03 22:07:47,575 - __main__ - INFO - Starting segment extraction...
+2025-08-03 22:07:47,575 - __main__ - INFO - Extracting segment 1/10: 00:02:24 to 00:03:00
+2025-08-03 22:07:47,787 - core.video_processor - INFO - Extracted segment: 00:02:24 -> 00:03:00 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_bsrdzlfq\segment_000.mkv)
+2025-08-03 22:07:47,788 - __main__ - INFO - Extracting segment 2/10: 00:03:16 to 00:03:53
+2025-08-03 22:07:48,010 - core.video_processor - INFO - Extracted segment: 00:03:16 -> 00:03:53 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_bsrdzlfq\segment_001.mkv)
+2025-08-03 22:07:48,011 - __main__ - INFO - Extracting segment 3/10: 00:04:00 to 00:04:40
+2025-08-03 22:07:48,300 - core.video_processor - INFO - Extracted segment: 00:04:00 -> 00:04:40 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_bsrdzlfq\segment_002.mkv)
+2025-08-03 22:07:48,302 - __main__ - INFO - Extracting segment 4/10: 00:05:00 to 00:05:30
+2025-08-03 22:07:48,699 - core.video_processor - INFO - Extracted segment: 00:05:00 -> 00:05:30 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_bsrdzlfq\segment_003.mkv)
+2025-08-03 22:07:48,700 - __main__ - INFO - Extracting segment 5/10: 00:06:00 to 00:06:45
+2025-08-03 22:07:49,015 - core.video_processor - INFO - Extracted segment: 00:06:00 -> 00:06:45 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_bsrdzlfq\segment_004.mkv)
+2025-08-03 22:07:49,016 - __main__ - INFO - Extracting segment 6/10: 00:07:10 to 00:07:50
+2025-08-03 22:07:49,471 - core.video_processor - INFO - Extracted segment: 00:07:10 -> 00:07:50 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_bsrdzlfq\segment_005.mkv)
+2025-08-03 22:07:49,472 - __main__ - INFO - Extracting segment 7/10: 00:08:05 to 00:08:40
+2025-08-03 22:07:50,001 - core.video_processor - INFO - Extracted segment: 00:08:05 -> 00:08:40 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_bsrdzlfq\segment_006.mkv)
+2025-08-03 22:07:50,005 - __main__ - INFO - Extracting segment 8/10: 00:09:00 to 00:09:40
+2025-08-03 22:07:50,633 - core.video_processor - INFO - Extracted segment: 00:09:00 -> 00:09:40 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_bsrdzlfq\segment_007.mkv)
+2025-08-03 22:07:50,634 - __main__ - INFO - Extracting segment 9/10: 00:10:00 to 00:10:30
+2025-08-03 22:07:51,049 - core.video_processor - INFO - Extracted segment: 00:10:00 -> 00:10:30 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_bsrdzlfq\segment_008.mkv)
+2025-08-03 22:07:51,050 - __main__ - INFO - Extracting segment 10/10: 00:11:00 to 00:11:40
+2025-08-03 22:07:51,526 - core.video_processor - INFO - Extracted segment: 00:11:00 -> 00:11:40 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_bsrdzlfq\segment_009.mkv)
+2025-08-03 22:07:52,389 - core.video_processor - INFO - Concatenated 10 segments to C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_bsrdzlfq\concatenated.mkv
+2025-08-03 22:07:52,390 - __main__ - INFO - Successfully extracted and concatenated 10 segments
+2025-08-03 22:07:52,390 - __main__ - INFO - Applying color grading and enhancement...
+2025-08-03 22:11:55,365 - core.video_processor - INFO - Color grading applied: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_bsrdzlfq\color_graded.mkv
+2025-08-03 22:11:55,365 - __main__ - INFO - Color grading completed successfully
+2025-08-03 22:11:55,366 - __main__ - INFO - Transforming to portrait format with background blur...
+2025-08-03 22:15:58,377 - core.video_processor - INFO - Portrait transformation completed: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_bsrdzlfq\portrait.mkv
+2025-08-03 22:15:58,378 - __main__ - INFO - Portrait transformation completed successfully
+2025-08-03 22:15:58,378 - __main__ - INFO - Generating transcription using Whisper...
+2025-08-03 22:16:08,957 - core.audio_processor - INFO - Loaded Whisper model: base.en
+2025-08-03 22:16:10,765 - core.audio_processor - INFO - Audio extracted to: C:\Users\KINGST~1\AppData\Local\Temp\tmpmj0ylau8.wav
+2025-08-03 22:16:10,765 - core.audio_processor - INFO - Starting transcription...
+2025-08-03 22:16:11,661 - core.audio_processor - ERROR - Transcription failed: DecodingOptions.__init__() got an unexpected keyword argument 'word_timestamps'. Did you mean 'without_timestamps'?
+2025-08-03 22:16:11,677 - __main__ - WARNING - Transcription failed, creating dummy transcription
+2025-08-03 22:16:11,680 - __main__ - INFO - Transcription completed with 0 segments
+2025-08-03 22:16:11,680 - __main__ - INFO - Creating Submagic-style subtitles...
+2025-08-03 22:16:11,728 - core.subtitle_generator - INFO - Created Submagic-style subtitles: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_bsrdzlfq\subtitles.ass
+2025-08-03 22:16:11,729 - __main__ - INFO - Subtitles created successfully
+2025-08-03 22:16:11,729 - __main__ - INFO - Rendering final video with subtitles...
+2025-08-03 22:16:11,814 - core.video_processor - ERROR - Final video rendering failed: ffmpeg version 2025-06-26-git-09cd38e9d5-full_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 15.1.0 (Rev4, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-lcms2 --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-liboapv --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-openal --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      60.  3.100 / 60.  3.100
+  libavcodec     62.  4.100 / 62.  4.100
+  libavformat    62.  1.100 / 62.  1.100
+  libavdevice    62.  0.100 / 62.  0.100
+  libavfilter    11.  0.100 / 11.  0.100
+  libswscale      9.  0.100 /  9.  0.100
+  libswresample   6.  0.100 /  6.  0.100
+Input #0, matroska,webm, from 'C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_bsrdzlfq\portrait.mkv':
+  Metadata:
+    ENCODER         : Lavf62.1.100
+  Duration: 00:06:20.54, start: -0.021000, bitrate: 2377 kb/s
+  Stream #0:0: Video: h264 (High), yuv420p(tv, bt709, progressive), 1080x1920 [SAR 1:1 DAR 9:16], 24 fps, 24 tbr, 1k tbn, start 1.042000
+    Metadata:
+      ENCODER         : Lavc62.4.100 libx264
+      DURATION        : 00:06:20.542000000
+  Stream #0:1(hin): Audio: aac (LC), 48000 Hz, 5.1, fltp, start -0.021000
+    Metadata:
+      ENCODER         : Lavc62.4.100 aac
+      BPS             : 159999
+      NUMBER_OF_FRAMES: 167009
+      NUMBER_OF_BYTES : 71257174
+      _STATISTICS_WRITING_APP: mkvmerge v73.0.0 ('25 or 6 to 4') 64-bit
+      _STATISTICS_WRITING_DATE_UTC: 2023-02-09 16:11:42
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+      DURATION        : 00:06:20.361000000
+[Parsed_ass_0 @ 000001a1ae119a40] Unable to parse option value "UsersKingston__JarvisAppDataLocalTempvideo_pipeline_bsrdzlfqsubtitles.ass" as image size
+[fc#-1 @ 000001a1ac4c6a80] Error applying option 'original_size' to filter 'ass': Invalid argument
+Error opening output file E:\Movies\Farzi S01 Hindi 720p WEB-DL ESub [BollyFlix]\output\final_video_20250803_221611_f9b50dcc.mp4.
+Error opening output files: Invalid argument
+
+2025-08-03 22:16:11,825 - __main__ - ERROR - Pipeline failed: Final video rendering failed
+2025-08-03 22:16:11,875 - __main__ - INFO - Cleaned up temporary directory: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_bsrdzlfq
+2025-08-03 22:16:11,875 - __main__ - ERROR - Processing failed: Final video rendering failed
+2025-08-03 22:41:36,969 - __main__ - INFO - Pipeline initialized with config: E:\Movies\Farzi S01 Hindi 720p WEB-DL ESub [BollyFlix]\output\jhc.mkv
+2025-08-03 22:41:36,979 - __main__ - INFO - Created temporary directory: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_f1nevlx0
+2025-08-03 22:41:36,980 - __main__ - INFO - Starting complete video processing pipeline...
+2025-08-03 22:41:36,980 - __main__ - INFO - Validating pipeline inputs...
+2025-08-03 22:41:36,983 - __main__ - INFO - Input validation completed successfully
+2025-08-03 22:41:36,983 - __main__ - INFO - Starting segment extraction...
+2025-08-03 22:41:36,983 - __main__ - INFO - Extracting segment 1/10: 00:02:24 to 00:03:00
+2025-08-03 22:41:38,340 - core.video_processor - INFO - Extracted segment: 00:02:24 -> 00:03:00 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_f1nevlx0\segment_000.mkv)
+2025-08-03 22:41:38,340 - __main__ - INFO - Extracting segment 2/10: 00:03:16 to 00:03:53
+2025-08-03 22:41:38,589 - core.video_processor - INFO - Extracted segment: 00:03:16 -> 00:03:53 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_f1nevlx0\segment_001.mkv)
+2025-08-03 22:41:38,589 - __main__ - INFO - Extracting segment 3/10: 00:04:00 to 00:04:40
+2025-08-03 22:41:38,850 - core.video_processor - INFO - Extracted segment: 00:04:00 -> 00:04:40 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_f1nevlx0\segment_002.mkv)
+2025-08-03 22:41:38,850 - __main__ - INFO - Extracting segment 4/10: 00:05:00 to 00:05:30
+2025-08-03 22:41:39,136 - core.video_processor - INFO - Extracted segment: 00:05:00 -> 00:05:30 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_f1nevlx0\segment_003.mkv)
+2025-08-03 22:41:39,137 - __main__ - INFO - Extracting segment 5/10: 00:06:00 to 00:06:45
+2025-08-03 22:41:39,465 - core.video_processor - INFO - Extracted segment: 00:06:00 -> 00:06:45 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_f1nevlx0\segment_004.mkv)
+2025-08-03 22:41:39,466 - __main__ - INFO - Extracting segment 6/10: 00:07:10 to 00:07:50
+2025-08-03 22:41:39,823 - core.video_processor - INFO - Extracted segment: 00:07:10 -> 00:07:50 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_f1nevlx0\segment_005.mkv)
+2025-08-03 22:41:39,824 - __main__ - INFO - Extracting segment 7/10: 00:08:05 to 00:08:40
+2025-08-03 22:41:40,204 - core.video_processor - INFO - Extracted segment: 00:08:05 -> 00:08:40 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_f1nevlx0\segment_006.mkv)
+2025-08-03 22:41:40,205 - __main__ - INFO - Extracting segment 8/10: 00:09:00 to 00:09:40
+2025-08-03 22:41:40,631 - core.video_processor - INFO - Extracted segment: 00:09:00 -> 00:09:40 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_f1nevlx0\segment_007.mkv)
+2025-08-03 22:41:40,632 - __main__ - INFO - Extracting segment 9/10: 00:10:00 to 00:10:30
+2025-08-03 22:41:41,067 - core.video_processor - INFO - Extracted segment: 00:10:00 -> 00:10:30 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_f1nevlx0\segment_008.mkv)
+2025-08-03 22:41:41,070 - __main__ - INFO - Extracting segment 10/10: 00:11:00 to 00:11:40
+2025-08-03 22:41:41,755 - core.video_processor - INFO - Extracted segment: 00:11:00 -> 00:11:40 (C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_f1nevlx0\segment_009.mkv)
+2025-08-03 22:41:42,706 - core.video_processor - INFO - Concatenated 10 segments to C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_f1nevlx0\concatenated.mkv
+2025-08-03 22:41:42,708 - __main__ - INFO - Successfully extracted and concatenated 10 segments
+2025-08-03 22:41:42,709 - __main__ - INFO - Applying color grading and enhancement...
+2025-08-03 22:45:38,262 - core.video_processor - INFO - Color grading applied: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_f1nevlx0\color_graded.mkv
+2025-08-03 22:45:38,276 - __main__ - INFO - Color grading completed successfully
+2025-08-03 22:45:38,307 - __main__ - INFO - Transforming to portrait format with background blur...
+2025-08-03 22:50:28,563 - core.video_processor - INFO - Portrait transformation completed: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_f1nevlx0\portrait.mkv
+2025-08-03 22:50:28,565 - __main__ - INFO - Portrait transformation completed successfully
+2025-08-03 22:50:28,566 - __main__ - INFO - Generating transcription using Whisper...
+2025-08-03 22:50:51,789 - core.audio_processor - INFO - Loaded Whisper model: base.en
+2025-08-03 22:50:54,182 - core.audio_processor - INFO - Audio extracted to: C:\Users\KINGST~1\AppData\Local\Temp\tmpn7uza2xk.wav
+2025-08-03 22:50:54,183 - core.audio_processor - INFO - Starting transcription...
+2025-08-03 23:04:35,027 - core.audio_processor - INFO - Transcription completed: 105 segments
+2025-08-03 23:04:35,040 - __main__ - INFO - Transcription completed with 105 segments
+2025-08-03 23:04:35,042 - __main__ - INFO - Creating Submagic-style subtitles...
+2025-08-03 23:04:35,108 - core.subtitle_generator - INFO - Created Submagic-style subtitles: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_f1nevlx0\subtitles.ass
+2025-08-03 23:04:35,109 - __main__ - INFO - Subtitles created successfully
+2025-08-03 23:04:35,109 - __main__ - INFO - Rendering final video with subtitles...
+2025-08-03 23:04:35,110 - __main__ - ERROR - Pipeline failed: 'VideoProcessor' object has no attribute 'render_final_video'
+2025-08-03 23:04:35,158 - __main__ - INFO - Cleaned up temporary directory: C:\Users\KINGST~1\AppData\Local\Temp\video_pipeline_f1nevlx0
+2025-08-03 23:04:35,158 - __main__ - ERROR - Processing failed: 'VideoProcessor' object has no attribute 'render_final_video'
